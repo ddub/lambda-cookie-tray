@@ -13,4 +13,4 @@ test:
     - docker-compose pull
     - docker-compose up -d
   override:
-    - docker-compose run echo 'Hello World'
+    - docker-compose run build env
