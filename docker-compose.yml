@@ -1,0 +1,4 @@
+build:
+  image:  sowawa/amazon-linux
+  volumes:
+   - .:/src
